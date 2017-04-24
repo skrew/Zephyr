@@ -7,10 +7,6 @@ Pod::Spec.new do |s|
   Effortlessly synchronize UserDefaults over iCloud.
   DESC
 
-  s.ios.deployment_target = '9.0'
-  s.tvos.deployment_target = '9.0'
-  s.watchos.deployment_target = '3.0'
-
   s.homepage     = "https://github.com/skrew/Zephyr"
   s.license      = "MIT"
   s.authors      = { "Arthur Ariel Sabintsev" => "arthur@sabintsev.com"}
@@ -18,4 +14,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/skrew/Zephyr.git", :tag => s.version.to_s }
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
+
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '3.0'
+
 end
