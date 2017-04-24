@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '3.0'
 
-  s.homepage     = "https://github.com/ArtSabintsev/Zephyr"
+  s.homepage     = "https://github.com/skrew/Zephyr"
   s.license      = "MIT"
   s.authors      = { "Arthur Ariel Sabintsev" => "arthur@sabintsev.com"}
   s.platform     = :ios, "8.0"
